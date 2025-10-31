@@ -28,8 +28,8 @@
     {
       "entityId": "formularioCorpal",
       "name": "Corpal Solicitações",
-      "contentUrl": "https://srvinternos.github.io/app-solicitacao/index.html",
-      "websiteUrl": "https://srvinternos.github.io/app-solicitacao/index.html",
+      "contentUrl": "https://github.com/Corpal-loteamentos/app-solicitacao/blob/main/index.html",
+      "websiteUrl": "https://github.com/Corpal-loteamentos/app-solicitacao/blob/main/index.html",
       "scopes": [ "personal" ]
     }
   ],
@@ -38,6 +38,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "https://srvinternos.github.io/app-solicitacao/"
+    "https://github.com/Corpal-loteamentos/app-solicitacao/"
   ]
 }
