@@ -16,7 +16,8 @@
       <div class="icon-card" onclick="loadForm('inovacao')">💡<p>Solicitação Digital e Inovação</p></div>
       <div class="icon-card" onclick="loadForm('veiculo')">🚗<p>Solicitação de Veículo</p></div>
       <div class="icon-card" onclick="loadForm('caju')"><img src="caju.png" alt="Ícone Caju" /><p>Solicitação Caju</p></div>
-	  <div class="icon-card" onclick="loadForm('chamado TI')"><img src="supti.png" alt="Ícone Chamado" /><p>Solicitação de Chamado TI</p></div>
+	  <div class="icon-card" onclick="loadForm('chamados TI')"><img src="supti.png" alt="Ícone Chamado" /><p>Solicitação de Chamado TI</p></div>
+	   <div class="icon-card" onclick="loadForm('Antecipação de Pagamentos')">💲<p>Antecipação de Pagamento</p></div>
     </div>
 
     <div id="form-container" style="display:none;">
@@ -55,10 +56,12 @@ function loadForm(type) {
     case "caju":
       url = "https://forms.office.com/Pages/ResponsePage.aspx?id=emONPyFz50qudewosdtpDOBfNYYroc1Opt5ttN-afM5UNjVXMU1VQUFWRUFJWFo0UUoxSUVJSjlBTS4u";
 	  break;
-	case "chamado TI":
+	case "chamados TI":
       window.open ("http://glpi.corpalincorporadora.com.br:8000/front/ticket.form.php","_blank");
       break;
-
+	case "Antecipação de Pagamentos":
+      url = "https://forms.office.com/Pages/ResponsePage.aspx?id=emONPyFz50qudewosdtpDDClf35qcbhFlPeWtNcJfuhUN0NOQlNZQ1lHMDI2WDBZNzhZSEtaVk1CQS4u";
+	  break;
 		  
 	  return;
   }
